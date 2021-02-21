@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "question": "C:\\Users\\82530\\IdeaProjects\\Qwe\\Photo\\pp.jpg",
+    "Aanswer": "Akniet",
+    "Banswer":"Aisha",
+    "Canswer": "Abu",
+    "Danswer": "Dariya",
+    "Correct": "Dariya"
+  },
+  {
+    "id": 2,
+    "question": "C:\\Users\\82530\\IdeaProjects\\Qwe\\Photo\\Akniet.jpg",
+    "Aanswer": "Akniet",
+    "Banswer":"Aisha",
+    "Canswer": "Nazerke",
+    "Danswer": "Dariya",
+    "Correct": "Akniet"
+  },
+  {
+    "id": 3,
+    "question": "C:\\Users\\82530\\IdeaProjects\\Qwe\\Photo\\Aisha.jpg",
+    "Aanswer": "Akniet",
+    "Banswer":"Aisha",
+    "Canswer": "Sabina",
+    "Danswer": "Dariya",
+    "Correct": "Aisha"
+  },
+  {
+    "id": 4,
+    "question": "C:\\Users\\82530\\IdeaProjects\\Qwe\\Photo\\Sabit.jpg",
+    "Aanswer": "Abu",
+    "Banswer": "Sabit",
+    "Canswer": "Eldar",
+    "Danswer": "Almaz",
+    "Correct": "Sabit"
+  },
+  {
+    "id": 5,
+    "question": "C:\\Users\\82530\\IdeaProjects\\Qwe\\Photo\\Eldar.jpg",
+    "Aanswer": "Eldar",
+    "Banswer": "Bilmim",
+    "Canswer": "Tanymaim",
+    "Danswer": "Adam balasy",
+    "Correct": "Eldar"
+  }
+]
