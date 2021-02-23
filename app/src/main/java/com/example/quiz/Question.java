@@ -7,14 +7,25 @@ public class Question {
     String Banswer;
     String Canswer;
     String Danswer;
+    String Correct;
 
-    public Question(long id, int image, String aanswer, String banswer, String canswer, String danswer) {
+    public Question(long id, int image, String aanswer, String banswer, String canswer, String danswer,String correct) {
         this.id = id;
         this.image = image;
         Aanswer = aanswer;
         Banswer = banswer;
         Canswer = canswer;
         Danswer = danswer;
+        Correct=correct;
+    }
+
+
+    public String getCorrect() {
+        return Correct;
+    }
+
+    public void setCorrect(String correct) {
+        Correct = correct;
     }
 
     public long getId() {

@@ -24,6 +24,10 @@
                       android:layout_gravity="center"/>
     </LinearLayout>
 
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/grade" android:textSize="22dp" android:layout_marginLeft="120dp"/>
+    </LinearLayout>
     <LinearLayout android:layout_margin="4dp"
             android:orientation="vertical" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:text="Time_Left" />
@@ -36,12 +40,27 @@
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content">
         <TextView
-                android:id="@+id/question"
-                android:text="Quiz"
+                android:text="Who is it?"
+                android:id="@+id/number"
                 android:textSize="36sp"
-                android:layout_width="102dp"
-                android:layout_height="match_parent"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
     </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">  <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/question"
+            android:layout_width="360dp"
+            android:layout_margin="40dp"
+
+            android:layout_height="178dp"
+            android:src="@drawable/aisha"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.83"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.241" /></LinearLayout>
 
     <LinearLayout
             android:orientation="vertical"
